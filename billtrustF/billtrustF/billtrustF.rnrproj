@@ -27,6 +27,101 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AxClass\CheckInfo">
+      <SubType>Content</SubType>
+      <Name>CheckInfo</Name>
+      <Link>Classes\CheckInfo</Link>
+    </Content>
+    <Content Include="AxClass\Custpayment">
+      <SubType>Content</SubType>
+      <Name>Custpayment</Name>
+      <Link>Classes\Custpayment</Link>
+    </Content>
+    <Content Include="AxClass\CUSTPORTALfile">
+      <SubType>Content</SubType>
+      <Name>CUSTPORTALfile</Name>
+      <Link>Classes\CUSTPORTALfile</Link>
+    </Content>
+    <Content Include="AxClass\DeductionInfo">
+      <SubType>Content</SubType>
+      <Name>DeductionInfo</Name>
+      <Link>Classes\DeductionInfo</Link>
+    </Content>
+    <Content Include="AxClass\EFTfile">
+      <SubType>Content</SubType>
+      <Name>EFTfile</Name>
+      <Link>Classes\EFTfile</Link>
+    </Content>
+    <Content Include="AxClass\ExceptionInfo">
+      <SubType>Content</SubType>
+      <Name>ExceptionInfo</Name>
+      <Link>Classes\ExceptionInfo</Link>
+    </Content>
+    <Content Include="AxClass\GetConnection">
+      <SubType>Content</SubType>
+      <Name>GetConnection</Name>
+      <Link>Classes\GetConnection</Link>
+    </Content>
+    <Content Include="AxClass\GroupBy">
+      <SubType>Content</SubType>
+      <Name>GroupBy</Name>
+      <Link>Classes\GroupBy</Link>
+    </Content>
+    <Content Include="AxClass\ImportedValues">
+      <SubType>Content</SubType>
+      <Name>ImportedValues</Name>
+      <Link>Classes\ImportedValues</Link>
+    </Content>
+    <Content Include="AxClass\ImportHandler">
+      <SubType>Content</SubType>
+      <Name>ImportHandler</Name>
+      <Link>Classes\ImportHandler</Link>
+    </Content>
+    <Content Include="AxClass\InvoiceInfo">
+      <SubType>Content</SubType>
+      <Name>InvoiceInfo</Name>
+      <Link>Classes\InvoiceInfo</Link>
+    </Content>
+    <Content Include="AxClass\JournalCreate">
+      <SubType>Content</SubType>
+      <Name>JournalCreate</Name>
+      <Link>Classes\JournalCreate</Link>
+    </Content>
+    <Content Include="AxClass\LOCKBOXfile">
+      <SubType>Content</SubType>
+      <Name>LOCKBOXfile</Name>
+      <Link>Classes\LOCKBOXfile</Link>
+    </Content>
+    <Content Include="AxClass\Parameters">
+      <SubType>Content</SubType>
+      <Name>Parameters</Name>
+      <Link>Classes\Parameters</Link>
+    </Content>
+    <Content Include="AxClass\PaymentInfo">
+      <SubType>Content</SubType>
+      <Name>PaymentInfo</Name>
+      <Link>Classes\PaymentInfo</Link>
+    </Content>
+    <Content Include="AxClass\RunnableClassBillTrust">
+      <SubType>Content</SubType>
+      <Name>RunnableClassBillTrust</Name>
+      <Link>Classes\RunnableClassBillTrust</Link>
+    </Content>
+    <Content Include="AxClass\Setup">
+      <SubType>Content</SubType>
+      <Name>Setup</Name>
+      <Link>Classes\Setup</Link>
+    </Content>
+    <Content Include="AxClass\TransactionsProcess">
+      <SubType>Content</SubType>
+      <Name>TransactionsProcess</Name>
+      <Link>Classes\TransactionsProcess</Link>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(BuildTasksDirectory)\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
 </Project>
